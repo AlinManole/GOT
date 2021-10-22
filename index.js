@@ -4,9 +4,7 @@ $(function () {
         url: 'https://thronesapi.com/api/v2/Characters',
         success: function (data) {
             array = data;
-            console.log(array)
             array.forEach(function (personaje, index) {
-                console.log(personaje.firstName)
                 $("#container").html($("#container").html() + `
                     <div class="include col-3 m-1">
                         <div class="box">
@@ -21,4 +19,11 @@ $(function () {
             })
         }
     });
+
+    $(".btn").click(function(){
+        console.log("button click")
+        $().val();
+    });
+
+
 });

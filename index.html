@@ -10,17 +10,33 @@
     <title>Game of thrones</title>
   </head>
   <body>
-    <div class="site">
-
-      <h1>Game of thrones</h1>
-      <!-- Search bar -->
-      <div class="input-group mb-3 w-25">
-        <button class="btn btn-primary" type="button" id="button-addon1">Search</button>
-        <input type="text" class="form-control" placeholder="" aria-label="search" aria-describedby="button-addon1">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div>
+            <h1 class="text-black text-center">Game of thrones</h1>
+          </div>
+        </div>
       </div>
+    </div>
+
+      <!-- Search bar -->
+
+    <div class="container-fluid pt-1">
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <div class="input-group  mb-3 w-25">
+              <button class="btn btn-primary" type="button" id="button-addon1">Search</button>
+              <input type="text" class="form-control" placeholder="" aria-label="search" aria-describedby="button-addon1">
+            </div>
+        </div>
+      </div>
+    </div>
+
       <!-- Insert characters-->
       <div id="container" class="row"></div>
 
+      <!-- Scripts -->
     <script src="jquery.js"></script>
     <script src="index.js"></script>
   </body>
