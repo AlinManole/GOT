@@ -1,26 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
+img {
+  width: 100%;
 }
 
-h1 {
-  padding: 50px;
+.img-container {
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.box {
-  width: 350px;
-  box-shadow: 10px 10px 10px rgb(187, 187, 187);
-  text-align: center;
+.character {
   overflow: hidden;
-  margin: 0 200px 30px 300px;
-}
-
-.theImage {
-  width: 350px;
-  height: 350px;
-  /* overflow: hidden; */
-}
-
-.textBox {
-  padding: 10px;
+  box-shadow: 0px 5px 13px -1px rgba(0,0,0,0.2);
 }
